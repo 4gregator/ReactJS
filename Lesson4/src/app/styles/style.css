@@ -1,0 +1,38 @@
+.post {
+	width: 80%;
+	margin: auto;
+	border: 1px solid grey;
+	border-radius: 5px;
+	padding: 15px;
+	background: #8000800a;
+}
+.post:not(:first-child) {
+	margin-top: 30px;
+}
+.post>h2 {
+	text-align: center;
+}
+
+#modal {
+	position: fixed;
+	left: 20%;
+	top: 25%;
+	width: 60%;
+	padding: 20px;
+	background: #ed143dd9;
+	border-radius: 15px;
+}
+#modal>p {
+	font-size: 44px;
+	text-align: center;
+}
+#modal>button {
+	display: block;
+	margin: 0 auto;
+	font-size: 20px;
+	cursor: pointer;
+}
+#modal>button:hover {
+	background: chocolate;
+    color: #fff;
+}
